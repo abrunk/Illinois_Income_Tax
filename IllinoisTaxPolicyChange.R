@@ -1,6 +1,4 @@
-# This will be my example for the Causal Impact model
-
-# I like to use it in concert with the R Package that does 
+# This will be my example for the Causal Impact model which was developed by Google for doing A/B testing, but which I've used for a variety of program and product evaluation models in my roles at both Ace Hardware Corp and CVS Health.
 
 library(tidyverse)
 library(CausalImpact)
