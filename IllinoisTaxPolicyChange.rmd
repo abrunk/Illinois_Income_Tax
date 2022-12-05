@@ -2,7 +2,7 @@
 title: "Illinois Income Tax Impact"
 author: "Alex Brunk"
 date: "2022-11-30"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
