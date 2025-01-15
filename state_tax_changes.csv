@@ -1,0 +1,55 @@
+state,year,tax_type,description,rate_change,major_reform
+Alabama,2006,Income,Modified income tax deductions and exemptions,FALSE,FALSE
+Alaska,2006,Corporate,Implemented new oil and gas production tax structure,TRUE,TRUE
+Arizona,2006,Income,Reduced all individual income tax rates by 10%,TRUE,TRUE
+California,2009,Income,Temporary 0.25% surcharge on all income tax rates,TRUE,FALSE
+California,2012,Income,"Proposition 30: Created new top tax brackets of 10.3%, 11.3%, and 12.3%",TRUE,TRUE
+Colorado,2020,Income,Reduced flat tax rate from 4.63% to 4.55%,TRUE,FALSE
+Connecticut,2009,Income,Added new top rate of 6.5% for high earners,TRUE,TRUE
+Delaware,2013,Income,Made permanent the top rate of 6.6%,TRUE,FALSE
+Florida,2019,Corporate,Reduced corporate tax rate from 5.5% to 4.458%,TRUE,FALSE
+Georgia,2018,Income,Reduced top rate from 6% to 5.75%,TRUE,TRUE
+Hawaii,2009,Income,"Added new top rates of 9%, 10%, and 11% for high earners",TRUE,TRUE
+Idaho,2018,Income,Reduced all individual income tax rates by 0.475%,TRUE,FALSE
+Illinois,2011,Income,Increased flat tax rate from 3% to 5%,TRUE,TRUE
+Illinois,2015,Income,"Partial sunset of 2011 tax increase, rate decreased to 3.75%",TRUE,TRUE
+Illinois,2017,Income,Increased flat tax rate to 4.95%,TRUE,TRUE
+Indiana,2015,Income,Began gradual reduction of flat tax rate from 3.4% to 3.23%,TRUE,FALSE
+Iowa,2018,Income,Comprehensive tax reform reducing rates and brackets,TRUE,TRUE
+Kansas,2012,Income,Major tax cut reducing rates and eliminating tax on pass-through income,TRUE,TRUE
+Kansas,2017,Income,"Reversed 2012 tax cuts, restored third tax bracket",TRUE,TRUE
+Kentucky,2018,Income,Replaced graduated income tax with 5% flat tax,TRUE,TRUE
+Louisiana,2008,Income,Eliminated excess itemized deductions,FALSE,TRUE
+Maine,2011,Income,Reduced top rate from 8.5% to 7.95%,TRUE,TRUE
+Maryland,2008,Income,Added new top rate of 6.25% for high earners,TRUE,TRUE
+Massachusetts,2020,Income,Maintained flat tax rate of 5.05%,FALSE,FALSE
+Michigan,2011,Income,Modified pension taxation and eliminated various credits,FALSE,TRUE
+Michigan,2015,Income,Maintained flat tax rate of 4.25%,FALSE,FALSE
+Minnesota,2013,Income,Added new top rate of 9.85% for high earners,TRUE,TRUE
+Mississippi,2016,Income,Began phase-out of 3% tax bracket,TRUE,TRUE
+Missouri,2014,Income,Gradual reduction in top rate from 6% to 5.5%,TRUE,TRUE
+Montana,2007,Income,Reformed bracket structure and reduced rates,TRUE,TRUE
+Nebraska,2012,Income,Indexed brackets for inflation,FALSE,FALSE
+Nevada,2015,Corporate,Created Commerce Tax on business revenue,TRUE,TRUE
+New Hampshire,2016,Corporate,Reduced Business Profits Tax rate,TRUE,FALSE
+New Jersey,2009,Income,"Added new top rate of 8.97% for income over $500,000",TRUE,TRUE
+New Mexico,2019,Income,Added new top rate of 5.9% for high earners,TRUE,TRUE
+New York,2009,Income,Added new top rates of 7.85% and 8.97%,TRUE,TRUE
+North Carolina,2013,Income,Major reform replacing graduated rates with flat tax,TRUE,TRUE
+North Dakota,2015,Income,Reduced all individual income tax rates,TRUE,TRUE
+Ohio,2005,Income,Five-year 21% across-the-board rate reduction,TRUE,TRUE
+Oklahoma,2012,Income,Reduced top rate from 5.25% to 5%,TRUE,FALSE
+Oregon,2009,Income,Added new top rates of 10.8% and 11%,TRUE,TRUE
+Pennsylvania,2005,Income,Maintained flat tax rate of 3.07%,FALSE,FALSE
+Rhode Island,2011,Income,Reduced number of brackets and top rate,TRUE,TRUE
+South Carolina,2007,Income,Reduced top rate from 7% to 6%,TRUE,TRUE
+South Dakota,2016,Sales,Increased state sales tax from 4% to 4.5%,TRUE,TRUE
+Tennessee,2016,Income,Began phase-out of Hall Income Tax,TRUE,TRUE
+Texas,2015,Corporate,Reduced franchise tax rates by 25%,TRUE,TRUE
+Utah,2007,Income,Replaced graduated rates with 5% flat tax,TRUE,TRUE
+Vermont,2009,Income,Reduced rates and reformed bracket structure,TRUE,TRUE
+Virginia,2013,All,Comprehensive transportation funding reform,TRUE,TRUE
+Washington,2010,Sales,Temporarily increased sales tax on certain services,TRUE,FALSE
+West Virginia,2007,Corporate,Began phase-down of corporate net income tax rate,TRUE,TRUE
+Wisconsin,2013,Income,Reduced rates across all brackets,TRUE,TRUE
+Wyoming,2020,Property,Modified assessment ratios for industrial property,TRUE,FALSE

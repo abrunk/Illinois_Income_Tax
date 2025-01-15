@@ -100,6 +100,5 @@ summary(impact)
 
 Counterintuitively, it appears that Illinois's GDP increased relative to Indiana in the years following the tax hike. I don't have a good explanation for a tax hike as a positive causal impact on state GDP. It's possible that the increase in taxes gave investors and businesses confidence that Illinois was solving its economic issues, or that the economy simply improved for other reasons.
 
-<b>As a next step, I may do some additional research to determine if there are other variables that I can account for here. The Causal Impact package allows for the use of a custom bsts model which would allow us to add additional variables to the model other than the quarter.</b>
+It's also possible that my use of a single state is not terribly representative in this situation, and I would be btter off using a synthetic control methdology. I also need to get together a better dataset of state tax policy changes during the period in question. The AI Model Claude (3.5 Sonnet) assisted me in pulling together <a href="state_tax_changes.csv">this dataset</a>.
 
-Either way, this is a simple illustration of how the Causal Impact model can be used to compare time series data.

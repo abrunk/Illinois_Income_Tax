@@ -151,13 +151,13 @@ summary(impact)
     ## 
     ##                          Average              Cumulative        
     ## Actual                   7.3e+05              1.2e+07           
-    ## Prediction (s.d.)        7.1e+05 (2108)       1.1e+07 (33730)   
+    ## Prediction (s.d.)        7.1e+05 (2133)       1.1e+07 (34134)   
     ## 95% CI                   [7.1e+05, 7.2e+05]   [1.1e+07, 1.1e+07]
     ##                                                                 
-    ## Absolute effect (s.d.)   14874 (2108)         237980 (33730)    
-    ## 95% CI                   [10606, 18938]       [169696, 303008]  
+    ## Absolute effect (s.d.)   14874 (2133)         237980 (34134)    
+    ## 95% CI                   [10655, 19081]       [170480, 305288]  
     ##                                                                 
-    ## Relative effect (s.d.)   2.1% (0.3%)          2.1% (0.3%)       
+    ## Relative effect (s.d.)   2.1% (0.31%)         2.1% (0.31%)      
     ## 95% CI                   [1.5%, 2.7%]         [1.5%, 2.7%]      
     ## 
     ## Posterior tail-area probability p:   0.00123
@@ -172,10 +172,9 @@ It’s possible that the increase in taxes gave investors and businesses
 confidence that Illinois was solving its economic issues, or that the
 economy simply improved for other reasons.
 
-<b>As a next step, I may do some additional research to determine if
-there are other variables that I can account for here. The Causal Impact
-package allows for the use of a custom bsts model which would allow us
-to add additional variables to the model other than the quarter.</b>
-
-Either way, this is a simple illustration of how the Causal Impact model
-can be used to compare time series data.
+It’s also possible that my use of a single state is not terribly
+representative in this situation, and I would be btter off using a
+synthetic control methdology. I also need to get together a better
+dataset of state tax policy changes during the period in question. The
+AI Model Claude (3.5 Sonnet) assisted me in pulling together
+<a href="state_tax_changes.csv">this dataset</a>.
