@@ -102,3 +102,47 @@ Counterintuitively, it appears that Illinois's GDP increased relative to Indiana
 
 It's also possible that my use of a single state is not terribly representative in this situation, and I would be btter off using a synthetic control methdology. I also need to get together a better dataset of state tax policy changes during the period in question. The AI Model Claude (3.5 Sonnet) assisted me in pulling together <a href="state_tax_changes.csv">this dataset</a>.
 
+```{r}
+
+# Load in table of changes to state tax codes in 2005 to 2023
+read_csv('state_tax_changes.csv',state_tax_changes)
+
+# Identify states with minimal state tax changes from 2005 to 2014
+stable_states <- state_tax_changes %>%
+  filter(year >= 2005, year <= 2014) %>%
+  group_by(state) %>%
+  summarize(
+    major_changes = sum(major_reform),
+    rate_changes = sum(rate_change)
+  ) %>%
+  filter(major_changes == 0 | (major_changes == 1 & rate_changes == 0)) %>%
+  pull(state)
+
+# Create dataframe for synthetic control
+state_columns <- which(colnames(state_gdp_cleaned) %in% stable_states)
+
+```
+
+```{r}
+# Prepare the data
+dataprep_out <- dataprep(
+  foo = as.data.frame(state_gdp_cleaned),
+  predictors = "gdp",
+  dependent = "gdp",
+  unit.variable = "state",
+  time.variable = "time",
+  special.predictors = list(
+    list("gdp", c(1:24), "mean")  # Using mean GDP for pre-treatment period
+  ),
+  treatment.identifier = 14,  # Illinois
+  controls.identifier = state_columns,
+  time.predictors.prior = 1:24,  # 2005-2010
+  time.optimize.ssr = 1:24,
+  time.plot = 1:40  # Full time period
+)
+
+# Run synthetic control
+synth_out <- synth(dataprep_out)
+
+```
+
